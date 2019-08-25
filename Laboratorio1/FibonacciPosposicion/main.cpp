@@ -23,11 +23,16 @@ int main(int argc, char** argv) {
     int limite, num1=0, num2=1, temp;
     cout<<"Ingrese el numero limite para la serie: ";
     cin>>limite;
-
-    temp=0;
-    cout<<"Serie: "<<num1<<", ";
-    fibonacci(limite, num1, num2, temp);
-    cout<<".";
+    
+    if(limite==0){
+        cout<<"Serie: "<<num1;
+    }
+    else{
+        temp=0;
+        cout<<"Serie: "<<num1<<", ";
+        fibonacci(limite, num1, num2, temp);
+        cout<<".";
+    }
     
     return 0;
 }

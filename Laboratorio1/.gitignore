@@ -1,0 +1,12 @@
+#Dont track
+
+#Fibonacci
+
+FibonacciPosposicion/build/
+FibonacciPosposicion/dist/
+FibonacciPosposicion/nbproject/
+FibonacciPosposicion/.dep.inc/
+FibonacciPosposicion/Makefile/
+
+
+
