@@ -36,5 +36,11 @@ Laboratorio1/Ejercicio2/nbproject/*
 Laboratorio1/Ejercicio2/.dep.inc
 Laboratorio1/Ejercicio2/Makefile
 
+#Menor
 
-
+Laboratorio1/Ejercicio3/build/*
+Laboratorio1/Ejercicio3/dist/*
+Laboratorio1/Ejercicio3/nbproject/*
+Laboratorio1/Ejercicio3/.dep.inc
+Laboratorio1/Ejercicio3/Makefile
+Laboratorio1/Ejercicio3/*.exe.*
