@@ -9,12 +9,14 @@
 using namespace std;
 
 void fibonacci(int limite, int num1, int num2, int temp){
-    cout<<num2; //Imprime el valor de num2
-    if(num2!=limite && num2<=limite){ //Verifica si num2 no sobrepasa el limite
+    if(num2<=limite){
+        cout<<", ";
+        cout<<num2; //Imprime el valor de num2 
+    }
+    if(num2!=limite && num2<limite){ //Verifica si num2 no sobrepasa el limite
         temp=num1;
         num1=num2;
         num2=temp+num1;
-        cout<<", ";
         fibonacci(limite, num1, num2, temp); //Llamada  a la funcion
     }
 };
@@ -29,7 +31,7 @@ int main(int argc, char** argv) {
     }
     else{
         temp=0;
-        cout<<"Serie: "<<num1<<", ";
+        cout<<"Serie: "<<num1;
         fibonacci(limite, num1, num2, temp);
         cout<<".";
     }
