@@ -30,11 +30,11 @@ Laboratorio1/SumaArrayPosposicion/Makefile
 
 #Potencias
 
-Laboratorio1/Ejercicio1/build/*
-Laboratorio1/Ejercicio1/dist/*
-Laboratorio1/Ejercicio1/nbproject/*
-Laboratorio1/Ejercicio1/.dep.inc
-Laboratorio1/Ejercicio1/Makefile
+Laboratorio1/Ejercicio2/build/*
+Laboratorio1/Ejercicio2/dist/*
+Laboratorio1/Ejercicio2/nbproject/*
+Laboratorio1/Ejercicio2/.dep.inc
+Laboratorio1/Ejercicio2/Makefile
 
 
 
