@@ -2,31 +2,31 @@
 
 #Fibonacci
 
-Laboratorio1/FibonacciPosposicion/build/*
-Laboratorio1/FibonacciPosposicion/dist/*
-Laboratorio1/FibonacciPosposicion/nbproject/*
-Laboratorio1/FibonacciPosposicion/.dep.inc
-Laboratorio1/FibonacciPosposicion/Makefile
+Laboratorio1/Ejemplo2 - FibonacciPosposicion/build/*
+Laboratorio1/Ejemplo2 - FibonacciPosposicion/dist/*
+Laboratorio1/Ejemplo2 - FibonacciPosposicion/nbproject/*
+Laboratorio1/Ejemplo2 - FibonacciPosposicion/.dep.inc
+Laboratorio1/Ejemplo2 - FibonacciPosposicion/Makefile
 
-Laboratorio1/FibonacciPorCola/build/*
-Laboratorio1/FibonacciPorCola/dist/*
-Laboratorio1/FibonacciPorCola/nbproject/*
-Laboratorio1/FibonacciPorCola/.dep.inc
-Laboratorio1/FibonacciPorCola/Makefile
+Laboratorio1/Ejemplo2 - FibonacciPorCola/build/*
+Laboratorio1/Ejemplo2 - FibonacciPorCola/dist/*
+Laboratorio1/Ejemplo2 - FibonacciPorCola/nbproject/*
+Laboratorio1/Ejemplo2 - FibonacciPorCola/.dep.inc
+Laboratorio1/Ejemplo2 - FibonacciPorCola/Makefile
 
 #Array
 
-Laboratorio1/SumaArrayPorCola/build/*
-Laboratorio1/SumaArrayPorCola/dist/*
-Laboratorio1/SumaArrayPorCola/nbproject/*
-Laboratorio1/SumaArrayPorCola/.dep.inc
-Laboratorio1/SumaArrayPorCola/Makefile
+Laboratorio1/Ejemplo3 - SumaArrayPorCola/build/*
+Laboratorio1/Ejemplo3 - SumaArrayPorCola/dist/*
+Laboratorio1/Ejemplo3 - SumaArrayPorCola/nbproject/*
+Laboratorio1/Ejemplo3 - SumaArrayPorCola/.dep.inc
+Laboratorio1/Ejemplo3 - SumaArrayPorCola/Makefile
 
-Laboratorio1/SumaArrayPosposicion/build/*
-Laboratorio1/SumaArrayPosposicion/dist/*
-Laboratorio1/SumaArrayPosposicion/nbproject/*
-Laboratorio1/SumaArrayPosposicion/.dep.inc
-Laboratorio1/SumaArrayPosposicion/Makefile
+Laboratorio1/Ejemplo3 - SumaArrayPosposicion/build/*
+Laboratorio1/Ejemplo3 - SumaArrayPosposicion/dist/*
+Laboratorio1/Ejemplo3 - SumaArrayPosposicion/nbproject/*
+Laboratorio1/Ejemplo3 - SumaArrayPosposicion/.dep.inc
+Laboratorio1/Ejemplo3 - SumaArrayPosposicion/Makefile
 
 #Potencias
 
