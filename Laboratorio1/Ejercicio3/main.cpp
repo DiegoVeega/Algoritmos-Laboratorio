@@ -9,26 +9,25 @@
 
 using namespace std;
 
-int Menor(int numeros[], int tam, int index, int paso){
-    if(tam==1){
-        return numeros[0];
+//arreglo, paso, posicion inicial del arreglo y tamanio
+int Menor(int numeros[], int paso, int numeroI, int tam){
+    if(tam==paso){
+        return numeroI; //
     }
     else{
-        if(numeros[index]<numeros[paso]){
-            paso=index;
-            paso=Menor(numeros, tam,index+1, paso);
+        if(numeros[paso]<numeroI){
+            numeroI=numeros[paso];
+            numeroI=Menor(numeros,paso+1, numeroI, tam);
         }
         else{
-            paso=Menor(numeros, tam,index+1, paso);
+            numeroI=Menor(numeros,paso+1, numeroI, tam);
         }
-        
+        return numeroI;
     }
 }
 
 int main(int argc, char** argv) {
     int numeros[100];
-    int index=0;
-    int paso=0;
     
     cout<<"Ingrese el tamanio del array: ";
     int tam;
@@ -38,8 +37,8 @@ int main(int argc, char** argv) {
         cout<<i+1<<". Ingrese un numero numero: ";
         cin>>numeros[i];
     }
-
-    int respuesta = Menor(numeros,tam, index, paso);
+    
+    int respuesta = Menor(numeros,0,numeros[0],tam);
     cout<<"El menor elemento es: "<<respuesta;
     return 0;
 }
