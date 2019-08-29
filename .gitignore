@@ -44,3 +44,28 @@ Laboratorio1/Ejercicio3/nbproject/*
 Laboratorio1/Ejercicio3/.dep.inc
 Laboratorio1/Ejercicio3/Makefile
 Laboratorio1/Ejercicio3/*.exe.*
+
+#Matriz
+
+Laboratorio1/Ejercicio1/build/*
+Laboratorio1/Ejercicio1/dist/*
+Laboratorio1/Ejercicio1/nbproject/*
+Laboratorio1/Ejercicio1/.dep.inc
+Laboratorio1/Ejercicio1/Makefile
+Laboratorio1/Ejercicio1/*.exe.*
+
+#Laboratorio2
+
+Laboratorio2/Ejemplo1 - ListasDoblementeEnlazadas/build/*
+Laboratorio2/Ejemplo1 - ListasDoblementeEnlazadas/dist/*
+Laboratorio2/Ejemplo1 - ListasDoblementeEnlazadas/nbproject/*
+Laboratorio2/Ejemplo1 - ListasDoblementeEnlazadas/.dep.inc
+Laboratorio2/Ejemplo1 - ListasDoblementeEnlazadas/Makefile
+Laboratorio2/Ejemplo1 - ListasDoblementeEnlazadas/*.exe.*
+
+Laboratorio2/ListasSimples/build/*
+Laboratorio2/ListasSimples/dist/*
+Laboratorio2/ListasSimples/nbproject/*
+Laboratorio2/ListasSimples/.dep.inc
+Laboratorio2/ListasSimples/Makefile
+Laboratorio2/ListasSimples/*.exe.*

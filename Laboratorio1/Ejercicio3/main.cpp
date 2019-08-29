@@ -14,6 +14,13 @@ int Menor(int numeros[], int tam, int index, int paso){
         return numeros[0];
     }
     else{
+        if(numeros[index]<numeros[paso]){
+            paso=index;
+            paso=Menor(numeros, tam,index+1, paso);
+        }
+        else{
+            paso=Menor(numeros, tam,index+1, paso);
+        }
         
     }
 }
