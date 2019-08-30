@@ -41,6 +41,21 @@ class Pila{
                 }
             }
         }
+        int recorer(int tam){
+            Nodo *temp =inicio;
+            if(!inicio){
+                tam=0;
+                return tam;
+            }
+            else{
+                while(temp){
+                    temp = temp ->sig;
+                    tam++;
+                }
+                return tam;
+            }
+        }
+        
 };
 
 struct NodoP{
@@ -74,6 +89,20 @@ class Pila2{
                 }
             }
         }
+        int recorer(int tam){
+            NodoP *temp =ini;
+            if(!ini){
+                tam=0;
+                return tam;
+            }
+            else{
+                while(temp){
+                    temp = temp ->sig;
+                    tam++;
+                }
+                return tam;
+            }
+        }
 };
 
 int main(int argc, char** argv) {
@@ -98,26 +127,36 @@ int main(int argc, char** argv) {
     for (int i = 0; i < elementos; i++) {
         if(numeros[i]==0){
             //Insertar en pila par
-            cout<<numeros[i]<<"Es par";
             par.push(numeros[i]);
             
         }
         else if(numeros[i]%2==0){
             //Insertar en pila par
-            cout<<numeros[i]<<"Es par";
             par.push(numeros[i]);
         }
         else{
             //Insertar en pila impar
-            cout<<numeros[i]<<"Es impar";
             impar.push(numeros[i]);
         }
     }
-    cout<<"\n";
-    cout<<"Pares: ";
+    int tampar=0;
+    int tamimpar=0;
+    
+    tampar=par.recorer(tampar);
+    cout<<"Hay "<<tampar<<" elementos en la pila de pares: ";
     par.mostrarPila();
-    cout<<"\n"<<"impares"<<endl;
+    
+    tamimpar=impar.recorer(tamimpar);
+    cout<<"\n"<<"Hay "<<tamimpar<<" elementos en la pila de impares: ";
     impar.mostrarPila();
+    cout<<"\n";
+    
+    if(tampar==tamimpar){
+        cout<<endl<<endl<<"La pila de pares y la pila de impares tienen el mismo tamaño."<<endl;
+    }
+    else{
+        cout<<"La pila de pares y la pila de impares no tienen el mismo tamaño.";
+    }
     
     return 0;
 }
