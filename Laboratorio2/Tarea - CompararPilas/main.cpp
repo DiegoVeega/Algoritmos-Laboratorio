@@ -63,18 +63,48 @@ int main(int argc, char** argv) {
 
     //Determinar si un numero es par o impar
     for (int i = 0; i < elementos; i++) {
+        
+        switch(numeros[i]%2){
+            case 0:
+                cout<<numeros[i]<<"Es par";
+                par.push(numeros[i]);
+                break;
+                
+            case 1:
+                cout<<numeros[i]<<"Es impar";
+                impar.push(numeros[i]);
+                break;
+        }
+        /*
         if(numeros[i]==0){
             //Insertar en pila par
+            cout<<numeros[i]<<"Es par";
+            par.push(numeros[i]);
             
         }
         else if(numeros[i]%2==0){
             //Insertar en pila par
+            cout<<numeros[i]<<"Es par";
+            par.push(numeros[i]);
         }
         else{
             //Insertar en pila impar
+            cout<<numeros[i]<<"Es impar";
+            impar.push(numeros[i]);
         }
+        */
+        cout<<"FOR PAR";
+        par.mostrarPila();
+        cout<<"\n";
+        cout<<"FOR IMPAR";
+        impar.mostrarPila();
+        cout<<"\n";
     }
-
+    cout<<"\n";
+    cout<<"Pares: ";
+    par.mostrarPila();
+    cout<<"\n"<<"impares"<<endl;
+    impar.mostrarPila();
     
     return 0;
 }
