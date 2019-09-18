@@ -76,3 +76,12 @@ Laboratorio2/Tarea - CompararPilas/nbproject/*
 Laboratorio2/Tarea - CompararPilas/.dep.inc
 Laboratorio2/Tarea - CompararPilas/Makefile
 Laboratorio2/Tarea - CompararPilas/*.exe.*
+
+#Laboratorio4
+
+Laboratorio4/Tarea - Missing_Number/build/*
+Laboratorio4/Tarea - Missing_Number/dist/*
+Laboratorio4/Tarea - Missing_Number/nbproject/*
+Laboratorio4/Tarea - Missing_Number/.dep.inc
+Laboratorio4/Tarea - Missing_Number/Makefile
+Laboratorio4/Tarea - Missing_Number/*.exe.*
