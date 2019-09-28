@@ -85,3 +85,12 @@ Laboratorio4/Tarea - Missing_Number/nbproject/*
 Laboratorio4/Tarea - Missing_Number/.dep.inc
 Laboratorio4/Tarea - Missing_Number/Makefile
 Laboratorio4/Tarea - Missing_Number/*.exe.*
+
+#Laboratorio5
+
+Laboratorio5/Tarea - OrderBST/build/*
+Laboratorio5/Tarea - OrderBST/dist/*
+Laboratorio5/Tarea - OrderBST/nbproject/*
+Laboratorio5/Tarea - OrderBST/.dep.inc
+Laboratorio5/Tarea - OrderBST/Makefile
+Laboratorio5/Tarea - OrderBST/*.exe.*
