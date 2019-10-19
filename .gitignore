@@ -94,3 +94,12 @@ Laboratorio5/Tarea - OrderBST/nbproject/*
 Laboratorio5/Tarea - OrderBST/.dep.inc
 Laboratorio5/Tarea - OrderBST/Makefile
 Laboratorio5/Tarea - OrderBST/*.exe.*
+
+#Laboratorio7
+
+Laboratorio7/Rod-Cutting/build/*
+Laboratorio7/Rod-Cutting/dist/*
+Laboratorio7/Rod-Cutting/nbproject/*
+Laboratorio7/Rod-Cutting/.dep.inc
+Laboratorio7/Rod-Cutting/Makefile
+Laboratorio7/Rod-Cutting/*.exe.*
