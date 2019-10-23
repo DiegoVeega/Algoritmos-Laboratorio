@@ -95,6 +95,16 @@ Laboratorio5/Tarea - OrderBST/.dep.inc
 Laboratorio5/Tarea - OrderBST/Makefile
 Laboratorio5/Tarea - OrderBST/*.exe.*
 
+
+#Laboratorio6
+
+Laboratorio6/Assambly/build/*
+Laboratorio6/Assambly/dist/*
+Laboratorio6/Assambly/nbproject/*
+Laboratorio6/Assambly/.dep.inc
+Laboratorio6/Assambly/Makefile
+Laboratorio6/Assambly/*.exe.*
+
 #Laboratorio7
 
 Laboratorio7/Rod-Cutting/build/*
