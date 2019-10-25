@@ -43,8 +43,8 @@ int FASTESTWAY(int a[][2], int t[][2], int* e, int* x, int n){
     f1[0] = e[0]+a[0][0];
     f2[0] = e[1]+a[0][1];
     
-    string elemento=to_string(e[0])+to_string(a[0][0]);
-    string elemento2=to_string(e[0])+to_string(a[0][1]);
+    string elemento=to_string(e[0])+to_string(a[0][0]); //
+    string elemento2=to_string(e[0])+to_string(a[0][1]); //
 
 
     for(int j = 1; j < n; j++){
@@ -69,14 +69,31 @@ int FASTESTWAY(int a[][2], int t[][2], int* e, int* x, int n){
         
     }
 
+    if(f1[n-1]+x[0] <= f2[n-1]+x[1]){
+        
+        cout << elemento << ", " << x[0];
+        printf("\n");
+        printf("Tiempo: ");
+        return f1[n-1]+x[0];
+        
+    }else{
+        
+        cout << elemento2 << ", " << x[1];
+        printf("\n");
+        printf("Tiempo: ");
+        return f2[n-1]+x[1];
+    }
 }
 
 int main(int argc, char** argv) {
     
     int campo[][2] = {{1,2}, {3,4}, {5,6}};
     int tiempo[][2] = {{1,2}, {3,4}};
-    int estacionE[] = {1, 2};
-    int tiempox[] = {2, 3};
     
+    int estacionE[] = {1, 5}; //entrando a e ?
+    int tiempox[] = {2, 6}; //al salir de n
+    
+    printf("%d",FASTESTWAY(campo, tiempo, estacionE, tiempox, 3));
+    cout << endl;
     return 0;
 }
