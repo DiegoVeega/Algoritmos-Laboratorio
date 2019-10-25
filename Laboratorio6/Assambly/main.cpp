@@ -6,7 +6,7 @@
 
 /* 
  * File:   main.cpp
- * Author: diego
+ * Author: 00148816
  *
  * Created on October 22, 2019, 10:03 PM
  */
