@@ -11,11 +11,10 @@
  * Created on October 22, 2019, 10:03 PM
  */
 
-#include <string>
 #include <iostream>
+#include <string>
 
 using namespace std;
-
 
 /*
  * 
@@ -43,31 +42,41 @@ int FASTESTWAY(int a[][2], int t[][2], int* e, int* x, int n){
     int f2[n];
     f1[0] = e[0]+a[0][0];
     f2[0] = e[1]+a[0][1];
+    
+    string elemento=to_string(e[0])+to_string(a[0][0]);
+    string elemento2=to_string(e[0])+to_string(a[0][1]);
+
 
     for(int j = 1; j < n; j++){
+        string telemento = elemento;
+        string telemento2 = elemento2;
 
         if(f1[j-1]+a[j][0] <= f2[j-1]+t[j-1][1]+a[j][0]){
             f1[j] = f1[j-1]+a[j][0];
+            elemento=telemento+", "+to_string(a[j][0]);
         }else{
             f1[j] = f2[j-1]+t[j-1][1]+a[j][0];
+            elemento2=telemento2+", "+to_string(a[j][0]);
         }
 
         if(f2[j-1]+a[j][1] <= f1[j-1]+t[j-1][0]+a[j][1]){
             f2[j] = f2[j-1]+a[j][1];
+            elemento2=telemento2+", "+to_string(a[j][1]);
         }else{
             f2[j] = f1[j-1]+t[j-1][0]+a[j][1];
+            elemento2=telemento+", "+to_string(a[j][1]);
         }
         
     }
 
-    
-    
-    
-    
-    //Trabajar datos
 }
 
 int main(int argc, char** argv) {
+    
+    int campo[][2] = {{1,2}, {3,4}, {5,6}};
+    int tiempo[][2] = {{1,2}, {3,4}};
+    int estacionE[] = {1, 2};
+    int tiempox[] = {2, 3};
     
     return 0;
 }
