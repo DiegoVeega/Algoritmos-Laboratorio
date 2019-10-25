@@ -113,3 +113,12 @@ Laboratorio7/Rod-Cutting/nbproject/*
 Laboratorio7/Rod-Cutting/.dep.inc
 Laboratorio7/Rod-Cutting/Makefile
 Laboratorio7/Rod-Cutting/*.exe.*
+
+#Laboratorio8
+
+Laboratorio8/ActivitySelection/build/*
+Laboratorio8/ActivitySelection/dist/*
+Laboratorio8/ActivitySelection/nbproject/*
+Laboratorio8/ActivitySelection/.dep.inc
+Laboratorio8/ActivitySelection/Makefile
+Laboratorio8/ActivitySelection/*.exe.*
