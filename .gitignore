@@ -122,3 +122,12 @@ Laboratorio8/ActivitySelection/nbproject/*
 Laboratorio8/ActivitySelection/.dep.inc
 Laboratorio8/ActivitySelection/Makefile
 Laboratorio8/ActivitySelection/*.exe.*
+
+#Laboratorio9
+
+Laboratorio9/Ejercicio1/build/*
+Laboratorio9/Ejercicio1/dist/*
+Laboratorio9/Ejercicio1/nbproject/*
+Laboratorio9/Ejercicio1/.dep.inc
+Laboratorio9/Ejercicio1/Makefile
+Laboratorio9/Ejercicio1/*.exe.*
